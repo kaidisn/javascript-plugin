@@ -2,7 +2,7 @@
 
 This demo is for a Grammarly plugin that will allow third-party websites to provide the Grammarly experience without requiring users to have the extension.
 
-The plugin is a work-in-progress. For now, please note the following:
+The plugin is a **work-in-progress**. For now, please note the following:
 
 - You will need to disable the Grammarly browser extension on this site to avoid conflicts.
 - We are currently prioritizing support for React and the Slate editor but will expand in the future.
