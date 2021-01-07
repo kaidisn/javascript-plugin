@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 import { GrammarlyTextArea } from "@grammarly/react-textarea";
 import { demoApiKey, demoText } from "./demo";
+import "./style.css";
 
 export const Editor = () => {
   const [value, setValue] = useState(demoText);
@@ -13,7 +14,6 @@ export const Editor = () => {
         setValue(event.target.value);
       }}
       rows={20}
-      style={{ width: "100%" }}
     />
   );
 };

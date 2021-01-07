@@ -5,6 +5,7 @@ import { Slate, withReact } from "slate-react";
 
 import { GrammarlyEditable, GrammarlySlate } from "@grammarly/react-slate";
 import { demoApiKey, demoText } from "./demo";
+import "./style.css";
 
 export const Editor = () => {
   const [value, setValue] = useState(demoText);
@@ -12,7 +13,7 @@ export const Editor = () => {
   return (
     <Slate editor={editor} value={value} onChange={(value) => setValue(value)}>
       <GrammarlySlate value={value} apiKey={demoApiKey}>
-        <div style={{ padding: "1rem" }}>
+        <div className="container">
           <GrammarlyEditable placeholder="Enter some plain text..." />
         </div>
       </GrammarlySlate>
