@@ -1,0 +1,21 @@
+{
+  "name": "grammarly-example-react-textarea",
+  "version": "1.0.0",
+  "description": "Example integration for @grammarly/react-textarea",
+  "main": "src/index.js",
+  "dependencies": {
+    "@grammarly/react-textarea": "^0.10.8",
+    "react": "17.0.0",
+    "react-dom": "17.0.0",
+    "react-scripts": "3.4.3"
+  },
+  "devDependencies": {
+    "typescript": "3.8.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}
