@@ -2,7 +2,6 @@
   "name": "grammarly-example-textarea",
   "version": "1.0.0",
   "description": "Example integration for @grammarly/textarea",
-  "main": "src/index.js",
   "dependencies": {},
   "devDependencies": {
     "typescript": "3.8.3"
