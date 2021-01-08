@@ -1,3 +1,5 @@
+export const demoApiKey = "5c891c34-55b1-4504-b1a2-5215d35757ba";
+
 export const demoText = `The basics
 
 Mispellings and grammatical errors can effect your credibility. The same goes for misused commas, and other types of punctuation . Not only will Grammarly underline these issues in red, it will also showed you how to correctly write the sentence.
