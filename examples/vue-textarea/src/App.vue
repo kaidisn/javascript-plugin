@@ -29,5 +29,6 @@ textarea {
   padding: 16px;
   line-height: 1.4;
   resize: none;
+  font-family: sans-serif;
 }
 </style>

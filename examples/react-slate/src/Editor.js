@@ -4,7 +4,7 @@ import { withHistory } from "slate-history";
 import { Slate, withReact } from "slate-react";
 
 import { GrammarlyEditable, GrammarlySlate } from "@grammarly/react-slate";
-import { demoApiKey, demoText } from "./demo";
+import { demoClientId, demoText } from "./demo";
 import "./style.css";
 
 export const Editor = () => {
@@ -12,7 +12,7 @@ export const Editor = () => {
   const editor = useMemo(() => withHistory(withReact(createEditor())), []);
   return (
     <Slate editor={editor} value={value} onChange={(value) => setValue(value)}>
-      <GrammarlySlate value={value} apiKey={demoApiKey}>
+      <GrammarlySlate value={value} clientId={demoClientId}>
         <div className="container">
           <GrammarlyEditable placeholder="Enter some plain text..." />
         </div>

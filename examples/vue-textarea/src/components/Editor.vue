@@ -1,13 +1,13 @@
 <script>
 import { GrammarlyTextArea } from "@grammarly/vue-textarea";
-import { demoText, demoApiKey } from "./demo";
+import { demoText, demoClientId } from "./demo";
 
 export default {
-  data: () => ({ text: demoText, apiKey: demoApiKey }),
+  data: () => ({ text: demoText, clientId: demoClientId }),
   components: { GrammarlyTextArea },
 };
 </script>
 
 <template>
-  <GrammarlyTextArea v-model="text" rows="20" :apiKey="apiKey" />
+  <GrammarlyTextArea v-model="text" rows="20" :clientId="clientId" />
 </template>

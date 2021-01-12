@@ -4,7 +4,7 @@
   "description": "Example integration for @grammarly/react-textarea",
   "main": "src/index.js",
   "dependencies": {
-    "@grammarly/react-textarea": "^0.10.11",
+    "@grammarly/react-textarea": "^0.10.12",
     "react": "17.0.0",
     "react-dom": "17.0.0",
     "react-scripts": "3.4.3"
